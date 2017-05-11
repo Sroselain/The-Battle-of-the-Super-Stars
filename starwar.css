@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+}
+.mainScreen{
+    height:768px;
+    width:512px;
+    position:relative;
+    margin:0 auto;
+}
+#backImg1{
+    height:1161px;
+    width:512px;
+    position:absolute;
+    background:url("backimg.png");
+}
+#backImg2{
+    height:1161px;
+    width:512px;
+    position:absolute;
+    background:url("backimg.png");
+    top:-891px;
+}
+#james{
+    height:82px;
+    width:109px;
+    position:absolute;
+    background:url("james1.png");
+    left:205px;
+    top:468px;
+}
+#startMenu{
+    height:82px;
+    width:109px;
+    position:absolute;
+    left:205px;
+    top:168px;
+    text-align:center;
+}
+#startMenu a, #restartMenu a{
+    text-decoration:none;
+    font-size:38px;
+    font-weight:bold;
+    color:red;
+}
+#startMenu a:hover,#restartMenu a:hover{
+    font-size:39px;
+}
+#restartMenu{
+    height:102px;
+    width:309px;
+    position:absolute;
+    left:115px;
+    top:380px;
+    text-align:center;
+    display:none;
+}
+.bullet{
+    width:40px;
+    height:40px;
+    position:absolute;
+    background:url("bullet.png");
+    background-size:contain;
+    left:-100px;
+    top:-100px;
+    display:none;
+}
+.enemy{
+    width:60px;
+    height:80px;
+    position:absolute;
+    background:url("enemy.png");
+    -webkit-background-size:60px 80px;
+    background-size:contain;
+    display:none;
+}
+
+
+
+
